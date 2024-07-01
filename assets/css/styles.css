@@ -87,7 +87,7 @@ ul {
       rgba(0, 0, 0, 0.5) 0%,
       rgba(31, 32, 32, 0.9) 100%
     ), 
-    url('./images/topg2.jpg');
+    url('../images/topg2.jpg');
   background-size: cover; 
   background-position: center; 
   box-shadow: 50px 50px 50px 50px inset #000000; 
@@ -129,7 +129,7 @@ ul {
   position: relative;
   height: 100vh; /* Full height */
   background: linear-gradient(rgba(0, 0, 0, 0.5) 0%,rgba(31, 32, 32, 0.9) 100%), 
-  url('./images/tog3.jpg'); 
+  url('../images/tog3.jpg'); 
   background-size: cover; 
   background-position: center; 
   box-shadow: 50px 50px 50px 50px inset #000000;
@@ -138,7 +138,7 @@ ul {
   position: relative;
   height: 150vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5) 0%,rgba(31, 32, 32, 0.9) 100%), 
-  url('./images/topg1.jpg'); 
+  url('../images/topg1.jpg'); 
   background-size: cover; 
   background-position: center; 
   box-shadow: 50px 50px 50px 50px inset #000000; 
@@ -147,7 +147,7 @@ ul {
   position: relative;
   height: 100vh; /* Full height */
   background: linear-gradient(rgba(0, 0, 0, 0.5) 0%,rgba(31, 32, 32, 0.9) 100%), 
-  url('./images/LOGO.jpg'); /* Replace with your image URL */
+  url('../images/LOGO.jpg'); /* Replace with your image URL */
   background-size: 100%;
   background-repeat: no-repeat; /* Cover the entire container */
   background-position: 50% 15%; /* Center the image */
@@ -156,7 +156,7 @@ ul {
   position: relative;
   height: 130vh; /* Full height */
   background: linear-gradient(rgba(0, 0, 0, 0.5) 0%,rgba(31, 32, 32, 0.9) 100%), 
-  url('./images/top4.jpg'); /* Replace with your image URL */
+  url('../images/top4.jpg'); /* Replace with your image URL */
   background-size: cover; /* Cover the entire container */
   background-position: center; /* Center the image */
   box-shadow: 50px 50px 50px 50px inset #000000; /* Inset box shadow */

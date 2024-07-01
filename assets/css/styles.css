@@ -1,0 +1,331 @@
+/* General Styles */
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+span,
+p,
+a {
+  font-family: "Rajdhani", sans-serif;
+  text-align: center;
+  color: #c4c4c4;
+}
+
+h1 {
+  font-size: 25px;
+  margin-bottom: 1px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 2px 0;
+  padding-top: 2px;
+}
+
+span {
+  font-size: 25px;
+  text-decoration: underline;
+  
+}
+
+p {
+  font-size: 22px;
+  margin: auto;
+}
+
+/* Navigation */
+.nav {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  height: auto;
+  width: auto;
+}
+
+.logo {
+  width: 120px;
+
+}
+
+ul {
+  padding: 0;
+}
+
+.list-items {
+  display: inline;
+}
+
+.list-items a {
+  margin: 5px;
+  padding: 0 10px;
+  text-decoration: none;
+  font-size: 35px;
+  color: #c4c4c4;
+}
+
+.list-items a:hover {
+  color: white;
+  border-bottom: 2px solid rgb(224, 173, 3);
+}
+
+.background-container-index {
+  position: relative;
+  height: 100vh; /* Full height */
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(31, 32, 32, 0.9) 100%
+    ), 
+    url('/assets/images/topg2.jpg');
+  background-size: cover; 
+  background-position: center; 
+  box-shadow: 50px 50px 50px 50px inset #000000; 
+}
+
+/* Content that will overlay the background */
+.overlay-content {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Offset to truly center */
+  color: white; /* Text color, adjust as needed */
+  text-align: center;
+  
+}
+
+/* Optional: Style the overlay content */
+.overlay-content h1 {
+  font-size: 35px;
+}
+
+.overlay-content p {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.overlay-content a {
+  text-decoration: none;
+}
+
+.overlay-content > p > a {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.overlay-content > p > a:hover {
+  color: rgb(224, 173, 3);
+}
+
+.background-container-article {
+  position: relative;
+  height: 100vh; /* Full height */
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 0%,rgba(31, 32, 32, 0.9) 100%), 
+  url('/assets/images/tog3.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  box-shadow: 50px 50px 50px 50px inset #000000;
+}
+.background-container-mission {
+  position: relative;
+  height: 150vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 0%,rgba(31, 32, 32, 0.9) 100%), 
+  url('/assets/images/topg1.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  box-shadow: 50px 50px 50px 50px inset #000000; 
+}
+.background-container-team {
+  position: relative;
+  height: 100vh; /* Full height */
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 0%,rgba(31, 32, 32, 0.9) 100%), 
+  url('/assets/images/LOGO.jpg'); /* Replace with your image URL */
+  background-size: 100%;
+  background-repeat: no-repeat; /* Cover the entire container */
+  background-position: 50% 15%; /* Center the image */
+  box-shadow: 50px 50px 50px 50px inset #000000; /* Inset box shadow */
+}.background-container-tokenomics {
+  position: relative;
+  height: 130vh; /* Full height */
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 0%,rgba(31, 32, 32, 0.9) 100%), 
+  url('/assets/images/top4.jpg'); /* Replace with your image URL */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the image */
+  box-shadow: 50px 50px 50px 50px inset #000000; /* Inset box shadow */
+}
+
+/* Video Section */
+.video-container,
+.video-container2 {
+  position: relative;
+  width: 640px;
+  height: 360px;
+  margin: auto;
+}
+#video {
+  width: 600px;
+}
+#video2 {
+  max-width: 400px;
+  max-height: 600px;
+  width: 100%; /* Ensure it scales with the width of the parent container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+hr {
+  border: 2px solid #c4c4c4;
+  margin-top: 20px;
+  width: 600px;
+}
+
+/* Team Section */
+.team {
+text-decoration: none;
+font-size: 25px;
+width: 400px;
+
+}
+
+
+.social-networks {
+  padding-top: 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  width: 400px;
+  transform: translateX(-50%);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  z-index: 999;
+}
+
+.social-networks li {
+  font-size: 20px;
+  display: inline;
+  margin-right: 12px;
+}
+
+.social-networks a {
+  font-size: 30px;
+  margin: 1%;
+  color: #f7f5f3;
+}
+
+.social-networks i:hover {
+  color: rgb(224, 173, 3);
+}
+
+.dex:hover {
+  color: rgb(224, 173, 3);
+}
+
+i {
+  color: #c4c4c4;
+}
+
+i:hover {
+  color: rgb(224, 173, 3);
+}
+
+
+/* Responsive Design */
+@media (max-width: 886px) {
+  .list-items a {
+    font-size: 28px;
+}
+.logo {
+  width: 60px
+}
+}
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    width: auto;
+  }
+  .logo2 {
+    display: none;
+  }
+  .pump2 {
+    display: none;
+  }
+  .list-items {
+    display: block;
+    text-align: center;
+  }
+  .list-items a {
+    display: block;
+    margin: 10px 0;
+  }
+  .video-container {
+    margin: auto;
+    width: 360px;
+    height: 300px;
+  }
+  #video {
+    width: 360px;
+    height: 300px;
+    margin: 10px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .list-items a {
+    font-size: 30px;
+  }
+  img .logo {
+    width: 40px;
+  }
+  .overlay-content h1 {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  h2 {
+    font-size: 1.6em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  p {
+    font-size: 1em;
+  }
+  .background-container-team {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center;
+    background-size: cover;
+  }
+  .overlay-content > p > a {
+    font-size: 15px;
+
+  }
+  .background-container-tokenomics {
+    background-position: 30% 25%;
+  
+  }
+  .overlay-content h1 {
+    font-size: 25px;
+  }
+  .background-container-tokenomics p {
+
+    width: 280px;
+  }
+  .background-container-mission p {
+    width: 280px;
+    margin-bottom: 5px;
+  }
+
+  }
+
+
+
